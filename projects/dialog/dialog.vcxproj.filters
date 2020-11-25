@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="moc_add_dialog_main.cpp">
+      <Filter>mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="qrc_resources.cpp">
+      <Filter>mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="moc_widget.cpp">
+      <Filter>mocs</Filter>
+    </ClCompile>
+    <ClCompile Include="widget.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="add_dialog_main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\add_dialog_main.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ui_add_dialog_main.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\ui_widget.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\widget.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{642e1904-98ab-4799-b984-3febb2789cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mocs">
+      <UniqueIdentifier>{2689efeb-e830-49bb-9ca3-4302dbaf6ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{9aae4c80-e6e6-475c-a9b6-b29225292967}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
